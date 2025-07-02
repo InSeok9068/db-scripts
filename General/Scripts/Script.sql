@@ -1,4 +1,1 @@
-SELECT
-	*
-FROM
-	diary ;
+SELECT * FROM 
