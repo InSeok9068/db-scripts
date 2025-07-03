@@ -7,8 +7,36 @@
 			"name": "deario",
 			"save-password": true,
 			"configuration": {
-				"database": "C:\\Users\\dlstj\\IdeaProjects\\go-simple-server\\projects\\deario\\data\\data.db",
-				"url": "jdbc:sqlite:C:\\Users\\dlstj\\IdeaProjects\\go-simple-server\\projects\\deario\\data\\data.db",
+				"database": "${home}\\IdeaProjects\\go-simple-server\\projects\\deario\\data\\data.db",
+				"url": "jdbc:sqlite:${home}\\IdeaProjects\\go-simple-server\\projects\\deario\\data\\data.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-197cdcd8a26-16d6ac58696a1231": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "log",
+			"save-password": true,
+			"configuration": {
+				"database": "${home}\\IdeaProjects\\go-simple-server\\shared\\log\\auxiliary.db",
+				"url": "jdbc:sqlite:${home}\\IdeaProjects\\go-simple-server\\shared\\log\\auxiliary.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-197cdce0159-37de94bfe46efdf": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "coupon",
+			"save-password": true,
+			"configuration": {
+				"database": "${home}\\IdeaProjects\\coupon-scraper\\data.db",
+				"url": "jdbc:sqlite:${home}\\IdeaProjects\\coupon-scraper\\data.db",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
